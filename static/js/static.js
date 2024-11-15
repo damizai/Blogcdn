@@ -5,10 +5,10 @@ fetch('https://tongji.090227.xyz/?id=hexo.200038.xyz')
     .catch(e => document.getElementById('visitCount').innerText = '加载失败');  // Error handling
 
 const urls = [
-    "https://blog.200036.xyz#Netlify CDN",
-    "https://hexo.200038.xyz#Cloudflare CDN",
+    "https://blog.291055.xyz#Vercel CDN",
+    "https://blog.4evercurry.us.kg#Cloudflare CDN",
     "https://fastly.hexo.200038.xyz#fastly CDN",
-    "https://www.weilai.us.kg#备用地址"
+    "https://zy111x.github.io#备用地址"
 ];
 
 // Dynamically generate URL list
