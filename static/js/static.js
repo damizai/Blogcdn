@@ -1,5 +1,5 @@
 // Fetch and display visit count
-fetch('https://tongji.090227.xyz/?id=hexo.200038.xyz')
+fetch('https://tongji.090227.xyz/?id=blog.291055.xyz')
     .then(r => r.json())  // Convert to JSON
     .then(d => document.getElementById('visitCount').innerText = d.visitCount)  // Show visitCount
     .catch(e => document.getElementById('visitCount').innerText = '加载失败');  // Error handling
@@ -7,7 +7,7 @@ fetch('https://tongji.090227.xyz/?id=hexo.200038.xyz')
 const urls = [
     "https://blog.291055.xyz#Vercel CDN",
     "https://blog.4evercurry.us.kg#Cloudflare CDN",
-    "https://fastly.hexo.200038.xyz#fastly CDN",
+    "https://fastly.blog.291055.xyz#fastly CDN",
     "https://zy111x.github.io#备用地址"
 ];
 
