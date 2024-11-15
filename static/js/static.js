@@ -21,7 +21,7 @@ urls.forEach((url, index) => {
     ul.appendChild(li);
 });
 
-const timeout = 3000;
+const timeout = 10000;
 
 function testLatency(url) {
     return new Promise((resolve) => {
