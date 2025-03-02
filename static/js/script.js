@@ -5,7 +5,8 @@ fetch('https://tongji.090227.xyz/?id=hexo.200038.xyz')
     .catch(e => document.getElementById('visitCount').innerText = '加载失败'); // 错误处理
 
 const urls = [
-    "https://blog.liuer.xin#Vercel CDN",    
+    "https://blog.liuer.xin#Vercel CDN",
+    "https://solitude.liuer.xin#优化 CDN",    
     "https://hexo.200038.xyz#Cloudflare CDN",
     "https://fastly.hexo.200038.xyz#Fastly CDN",
     "https://gcore.hexo.200038.xyz#Gcore CDN",
