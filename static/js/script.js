@@ -9,7 +9,7 @@ const urls = [
     "https://hexo.200038.xyz#Cloudflare CDN",
     "https://fastly.hexo.200038.xyz#Fastly CDN",
     "https://gcore.hexo.200038.xyz#Gcore CDN",
-    "https://xn--yhq50f2v6f.us.kg#备用地址"
+    "https://xn--xhq80hj5vkhb.zone.id#备用地址"
 ];
 
 // 动态生成URL列表
